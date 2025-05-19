@@ -1,0 +1,8 @@
+#squares {
+    display: grid;
+    grid-template-columns: repeat(5, 52px);
+    gap: 0;
+    overflow: hidden;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

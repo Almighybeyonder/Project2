@@ -1,0 +1,30 @@
+<div>
+    <div>
+        <label for="start-row">Start Row:</label>
+        <input type="number" class="location" id="start-row" />
+        <label for="start-col">Start Col:</label>
+        <input type="number" class="location" id="start-col" />
+    </div>
+    <div>
+        <label for="end-row">End Row:</label>
+        <input type="number" id="end-row" />
+        <label for="end-col">End Col:</label>
+        <input type="number" id="end-col" />
+    </div>
+    <br />
+    <!-- NEW ACTION: Added annihilate option -->
+    <select id="operation-select">
+        <option value="move">Move</option>
+        <option value="attack">Attack</option>
+        <option value="recruit">Recruit</option>
+        <option value="spawn">Spawn</option>
+        <option value="crack">Crack</option>
+        <option value="annihilate">Annihilate</option>
+    </select>
+    <br />
+    <button id="go">Go</button>
+    <!-- NEW PIECE: Fixed board display -->
+    <pre id="game-board">{{ gameString }}</pre>
+    <!-- NEW RULE: Display messages -->
+    <div id="message">{{ message }}</div>
+</div>
