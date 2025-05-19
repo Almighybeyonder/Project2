@@ -11,7 +11,7 @@
     display: block;
     width: 50px; /*  match imageSize */
     height: 50px; /*  match imageSize */
-    padding: 0; /*match imagePadding */
+    padding: 0; /*match imagePadding 0 */
     box-sizing: border-box;
-    object-fit: cover; /* image fills the space*/
+    object-fit: cover; /* image fills the space cover*/
 }
